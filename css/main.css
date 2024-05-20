@@ -1,0 +1,1335 @@
+.container {
+    margin: 0 auto;
+    max-width: 1263px;
+}
+
+/* section main__key  */
+.main__key {
+    background-image: url(../img/png/background\ Repair.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    height: 707px;
+    position: relative;
+}
+
+.main__key::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main__container__key {
+    margin-left: 32px;
+    margin-top: 194px;
+    position: absolute;
+    width: 519px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px 20px;
+}
+
+.main__title {
+    font-size: 40px;
+    color: white;
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    line-height: 53px;
+    font-weight: normal;
+}
+
+.main__title span {
+    color: #E3B873;
+}
+
+.main__subtitle {
+    font-size: 22px;
+    color: white;
+    line-height: 163%;
+}
+
+.main__subtitle__br {
+    display: none;
+}
+
+.main__key__btn {
+    width: 207px;
+    height: 51px;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.main__key__btn.application {
+    border: 1px solid white;
+    background: none;
+}
+
+/* section main__projects */
+
+.main__projects {
+    background-color: #131313;
+}
+
+.main__container__projects {
+    margin-left: 32px;
+    display: flex;
+    padding-top: 107px;
+    justify-content: space-between;
+    height: 1074px;
+}
+
+.main__container__text {
+    width: 442px;
+    padding-top: 69px;
+}
+
+.main__container__text h1 {
+    font-size: 27px;
+    color: #E3B873;
+    font-family: Yeseva One;
+    margin-bottom: 34px;
+    font-weight: normal;
+    letter-spacing: -2px;
+}
+
+.main__container__text p {
+    font-size: 14px;
+    line-height: 191%;
+    color: white;
+}
+
+.main__container__projects__img {
+    width: 340px;
+    height: 241px;
+    background-image: url(../img/png-768px/projects.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 75px;
+    display: none;
+}
+
+.main__container__projects__img div {
+    width: 36px;
+    height: 36px;
+    background-color: #E3B873;
+    border-radius: 50%;
+}
+
+.main__projects__vector-left {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.main__projects__vector-right {
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+
+
+.main__text__container {
+    display: flex;
+    gap: 34px 10px;
+    flex-wrap: wrap;
+    margin-top: 42px;
+    margin-bottom: 79px;
+}
+
+.main__cell {
+    width: 174px;
+
+}
+
+.main__cell h2 {
+    font-size: 18px;
+    color: #E3B873;
+    padding-bottom: 9px;
+}
+
+.main__cell p {
+    font-size: 13px;
+    color: white;
+}
+
+.main__transition {
+    display: flex;
+    width: 206px;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.main__transition>img {
+    cursor: pointer;
+}
+
+.main__img__name {
+    margin-bottom: 45px;
+}
+
+.main__img__name span {
+    color: rgba(255, 255, 255, .3);
+    margin-right: 60px;
+    font-size: 14px;
+    font-family: Yeseva One;
+    cursor: pointer;
+}
+
+.main__img__name span:first-child {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 6px;
+}
+
+.main__img__name span:last-child {
+    margin-right: 0px;
+}
+
+.main__container__img {
+    padding-left: 50px;
+}
+
+.main__img {
+    width: 679px;
+    height: 482px;
+    background-image: url(../img/png/Rostov-on-Don.png);
+}
+
+/* section main__control */
+.main__container__control {
+    padding-left: 209px;
+}
+
+.main__control {
+    display: flex;
+    align-content: center;
+    margin-top: -298px;
+}
+
+.main__container__title {
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: normal;
+}
+
+.main__container__title.control {
+    padding-left: 312px;
+    color: white;
+}
+
+.foto {
+    display: flex;
+
+    gap: 8px;
+}
+
+.main__camera {
+    padding-left: 344px;
+    margin-top: 12px;
+    margin-bottom: 31px;
+}
+
+.main__control__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 817px;
+    height: 434px;
+    background-image: url(../img/png/control-video.png);
+}
+
+.main__control__video::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-video {
+    position: absolute;
+    padding-left: 7px;
+    padding-top: 3px;
+    background-color: #E3B873;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-player-768 {
+    display: none;
+}
+
+.main__control__line {
+    width: 55px;
+    border: 2px solid rgba(227, 184, 115, 1);
+    border-bottom-width: 0;
+    margin-left: 381px;
+    margin-top: 62px;
+    margin-bottom: 34px;
+}
+
+.main__control__text {
+    padding-right: 324px;
+    font-size: 18px;
+    line-height: 204%;
+    text-align: center;
+    margin-left: 68px;
+    margin-bottom: 91px;
+}
+
+.main__control__text .indent {
+    display: none;
+}
+
+.main__contacts {
+    width: 231px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__control_contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+    width: 769px;
+    height: 51px;
+    margin-left: 24px;
+}
+
+.main__contacts span {
+    color: rgba(54, 54, 54, .5);
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.main__contacts input::placeholder {
+    color: black;
+    font-size: 14px;
+}
+
+.main__contacts input {
+    width: 231px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(54, 54, 54, .3);
+    padding-bottom: 5px;
+    outline: none;
+    font-family: Nunito Sans;
+}
+
+.main__control__btn {
+    font-size: 13px;
+    width: 200px;
+    padding-top: 2px;
+}
+
+.main__checkbox {
+    margin-left: 263px;
+    margin-top: 33px;
+    margin-bottom: 75px;
+}
+
+.main__control__label {
+    cursor: pointer;
+}
+
+.main__information__request {
+    margin-bottom: 242px;
+}
+
+.main__control__checkbox,
+.main__request__checkbox {
+    display: none;
+}
+
+.main__control__fake,
+.main__fake__request {
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background-color: #E3B873;
+    color: #fff;
+    border-radius: 1px;
+}
+
+.main__control__fake::before,
+.main__fake__request::before {
+    content: "";
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: url(../img/svg/Vector.svg);
+    background-repeat: no-repeat;
+    opacity: 0;
+    width: 10px;
+    height: 11px;
+}
+
+.main__control__checkbox:checked+.main__control__fake::before,
+.main__request__checkbox:checked+.main__fake__request::before {
+    opacity: 1;
+}
+
+.main__checkbox__text {
+    font-size: 14px;
+}
+
+.main__control__end {
+    display: none;
+}
+
+/* section main__repair */
+
+
+.main__repair__tatle {
+    text-align: center;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: normal;
+    color: #181818;
+}
+
+.main__container__title.repair {
+    padding-left: 530px;
+}
+
+.main__tools {
+    margin-top: 13px;
+    margin-bottom: 31px;
+}
+
+.main__tools.repair {
+    padding-left: 560px;
+}
+
+.main__repair__proposal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.main__proposal {
+    width: 392px;
+    height: 421px;
+}
+
+.main__proposal.redecorating {
+    background-image: url(../img/png/redecorating.jpg);
+}
+
+.main__proposal__text {
+    width: 330px;
+    margin-left: 31px;
+    margin-top: -127px;
+    background-color: white;
+}
+
+.main__proposal__list {
+    padding: 25px 0px 23px 31px;
+}
+
+.main__proposal__list h1 {
+    font-size: 18px;
+    font-family: Yeseva One;
+    font-weight: normal;
+    margin-bottom: 13px;
+}
+
+.main__proposal__item {
+    font-size: 13px;
+    color: #959595;
+    margin-left: 12px;
+    line-height: 204%;
+}
+
+.main__proposal__btn {
+    width: 228px;
+    height: 54px;
+    transform-style: preserve-3d;
+}
+
+.main__proposal__btn::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background: inherit;
+    filter: blur(10px);
+    transform: translate3d(5px, 5px, -1px);
+}
+
+.main__proposal.overhaul {
+    background-image: url(../img/png/Overhaul.jpg);
+}
+
+.main__proposal.designer {
+    background-image: url(../img/png/Designer\ Repair.jpg);
+}
+
+/* section main__information */
+.main__container__information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__information__img {
+    background-image: url(../img/png/building.png);
+    height: 598px;
+    width: 703px;
+    background-repeat: no-repeat;
+    margin-left: -102px;
+}
+
+.main__information__text {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 473px;
+}
+
+.main__information__number {
+    display: flex;
+}
+
+.main__number__circle {
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    background-color: #E3B873;
+    font-size: 18px;
+    color: white;
+    font-family: Yeseva One;
+    font-weight: normal;
+    padding-top: 7px;
+    border: 8px solid white;
+    text-align: center;
+}
+
+.main__number__text {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 7px;
+
+}
+
+.main__request {
+    position: relative;
+    width: 506px;
+    height: 509px;
+    background-color: #131313;
+    margin-top: 59px;
+}
+
+.main__request_text {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 143%;
+    padding-top: 28px;
+
+}
+
+.main__contacts__information {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 39px;
+    width: 408px;
+    height: 244px;
+    margin-left: 49px;
+}
+
+.main__contacts__request {
+    width: 408px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__contacts__request span {
+    color: rgba(255, 255, 255, .5);
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.main__contacts__request input::placeholder {
+    color: white;
+    font-size: 14px;
+}
+
+.main__contacts__request input {
+    background: none;
+    width: 408px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 15%);
+    padding-bottom: 5px;
+    outline: none;
+    font-family: Nunito Sans;
+    color: white;
+}
+
+.main__contacts__request:first-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 48%);
+}
+
+.main__checkbox__request {
+    margin-left: 49px;
+    margin-top: 16px;
+}
+
+.main__control__request {
+    cursor: pointer;
+    display: flex;
+}
+
+.main__checkbox__request__text {
+    display: block;
+    font-size: 14px;
+    color: white;
+    margin-left: 9px;
+}
+
+.main__request__btn {
+    font-size: 13px;
+    width: 213px;
+    height: 51px;
+    padding-top: 2px;
+    margin-top: 10px;
+    margin-left: 244px;
+}
+
+.main__moneybox_container {
+    display: flex;
+    margin-top: 38px;
+}
+
+.main__moneybox__circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #E3B873;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.main__moneybox__text {
+    font-size: 18px;
+    color: #E3B873;
+    width: 240px;
+    padding-left: 25px;
+    padding-top: 12px;
+}
+
+/* section main__interior */
+.main__interior {
+    background-image: url(../img/png/American-classic.png);
+    height: 864px;
+    background-size: cover;
+    position: relative;
+}
+
+.main__interior::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main__container__interior {
+    display: flex;
+    column-gap: 208px;
+    position: relative;
+    margin-bottom: 69px;
+}
+
+.main__interior__content {
+    width: 280px;
+    padding-top: 137px;
+}
+
+.main__interior__title {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-weight: normal;
+    font-size: 27px;
+    margin-bottom: 47px;
+}
+
+.main__interior__title.end {
+    display: none;
+}
+
+.main__interior__list {
+    list-style: none;
+}
+
+.main__interior__item {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.main__interior__item:first-child {
+    color: #E3B873;
+    border-bottom: 1px solid rgba(227, 184, 115, .6);
+    width: 150px;
+}
+
+.main__interior__img {
+    width: 750px;
+    display: flex;
+}
+
+.main__content__img,
+.main__content__foto {
+    width: 353px;
+}
+
+.main__interior__wardrobe {
+    background-image: url(../img/png/wardrobe.png);
+    height: 557px;
+    margin-bottom: 39px;
+}
+
+.main__interior__living-room {
+    background-image: url(../img/png/living-room.png);
+    height: 349px;
+}
+
+.main__content__img {
+    margin-top: -40px;
+}
+
+.main__interior__sofa {
+    background-image: url(../img/png/sofa.png);
+    height: 275px;
+    margin-bottom: 36px;
+}
+
+.main__interior__table-top {
+    background-image: url(../img/png/table-top.png);
+    height: 625px;
+}
+
+.main__content__foto {
+    margin-left: 43px;
+    margin-top: -112px;
+}
+
+/* section main__clients */
+.main__clients {
+    margin-top: 110px;
+}
+
+.main__container__clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__tools__paragraph {
+    text-align: center;
+    width: 366px;
+    line-height: 163%;
+    font-size: 18px;
+}
+
+.main__clients__biography {
+    width: 1236px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+    margin-bottom: 354px;
+}
+
+.main__client {
+    width: 376px;
+}
+
+.main__client__profile {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+.main__client__name {
+    font-size: 18px;
+    line-height: 127%;
+    font-family: Yeseva One;
+    font-weight: normal;
+    margin-top: 17px;
+    margin-left: 23px;
+}
+
+.main__client p {
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+    margin-left: 20px;
+    width: 320px;
+    margin-bottom: 6px;
+}
+
+.main__client__block {
+    display: flex;
+    width: 293px;
+    height: 54px;
+    transform-style: preserve-3d;
+    margin-top: 40px;
+}
+
+.main__client__btn::before {
+    content: "";
+    position: absolute;
+    inset: 5px;
+    background: inherit;
+    filter: blur(10px);
+    transform: translate3d(5px, 5px, -1px);
+}
+
+.main__client__logo {
+    display: flex;
+    height: 54px;
+    padding-top: 11px;
+    padding-left: 17px;
+    background-color: #E3B873;
+    color: #FFFFFF;
+    border: none;
+}
+
+.main__metre__logo {
+    width: 32px;
+    height: 31px;
+    background-image: url(../img/svg/metre.svg);
+}
+
+.main__client__logo span {
+    padding-top: 6px;
+    padding-left: 14px;
+    font-size: 17px;
+    font-family: Yeseva One;
+    font-weight: normal;
+}
+
+.main__client__logo.metre {
+    width: 135px;
+}
+
+.main__client__logo.days {
+    width: 159px;
+    border-left: 1px solid white;
+}
+
+.main__days__logo {
+    width: 33px;
+    height: 31px;
+    background-image: url(../img/svg/days.svg);
+}
+
+/* section main__end */
+.main__end {
+    background-image: url(../img/png/building-end.png);
+    height: 953px;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+
+.main__information__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__request.questions {
+    width: 883px;
+    height: 445px;
+    margin-top: -300px;
+    background-color: #181818;
+}
+
+.main__request_text.questions {
+    font-size: 20px;
+    line-height: 138%;
+    padding-top: 34px;
+}
+
+.main__contacts__information.questions {
+    margin-top: 45px;
+    width: 516px;
+    height: 138px;
+    margin-left: 181px;
+    justify-content: space-between;
+}
+
+.main__contacts__request.questions {
+    width: 231px;
+}
+
+.main__contacts__request.questions:last-child,
+.main__contacts__request.questions input {
+    width: 516px;
+}
+
+.main__contacts__request.questions:first-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 15%);
+}
+
+.main__checkbox__request.questions {
+    margin-left: 298px;
+    margin-top: 46px;
+}
+
+.main__request__btn.questions {
+    width: 200px;
+    margin-left: 341px;
+    margin-top: 26px;
+}
+
+.main__information_contact__title {
+    margin-top: 52px;
+    margin-bottom: 26px;
+    margin-left: 171px;
+    width: 541px;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: normal;
+    color: #E3B873;
+    text-align: center;
+    line-height: 138%;
+}
+
+.main__information_contact__title br {
+    display: none;
+}
+
+.main__information__contact__img {
+    margin-left: 428px;
+    margin-bottom: 43px;
+    width: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__img-375 {
+    display: none;
+}
+
+.main__information__contact__map {
+    width: 926px;
+    height: 465px;
+    background-image: url(../img/png/map.png);
+}
+
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 340px;
+    }
+
+    /* section main__key  */
+    .main__key {
+        background-image: url(../img/png-768px/background-repair.png);
+        height: 476px;
+    }
+
+    .main__container__key {
+        margin-left: 0px;
+        width: 340px;
+        margin-top: 80px;
+        gap: 0px;
+    }
+
+    .main__title {
+        font-size: 23px;
+        line-height: 32px;
+
+    }
+
+    .main__subtitle {
+        font-size: 14px;
+        color: white;
+        line-height: 135%;
+        margin-top: 18px;
+        margin-bottom: 52px;
+    }
+
+    .main__subtitle__br {
+        display: block;
+    }
+
+    .main__key__btn {
+        width: 338px;
+        margin-bottom: 26px;
+    }
+
+    /* section main__projects */
+    .main__projects {
+        background-color: #181818;
+    }
+
+    .main__container__projects {
+        margin-left: 0;
+        padding-top: 36px;
+        height: 727px;
+    }
+
+    .main__container__img,
+    .main__transition {
+        display: none;
+    }
+
+    .main__container__text {
+        padding-top: 0px;
+    }
+
+    .main__container__text>h1 {
+        font-size: 22px;
+        line-height: 138%;
+        margin-bottom: 37px;
+        text-align: center;
+    }
+
+    .main__container__text>p {
+        font-size: 11px;
+        line-height: 158%;
+        text-align: center;
+    }
+
+    .main__container__projects__img {
+        display: flex;
+    }
+
+    .main__text__container {
+        gap: 38px 22px;
+        margin-top: 36px;
+        margin-bottom: 24px;
+    }
+
+    .main__cell {
+        width: 138px;
+
+    }
+
+    .main__cell h2 {
+        font-size: 14px;
+        padding-bottom: 13px;
+    }
+
+    .main__cell p {
+        font-size: 11px;
+        color: white;
+    }
+
+    /* section main__control */
+    .main__control {
+        background-color: #181818;
+    }
+
+    .main__container__control {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .main__control {
+        margin-top: 0px;
+    }
+
+    .main__container__title {
+        font-size: 22px;
+    }
+
+    .main__container__title.repair {
+        padding-left: 82px;
+    }
+
+    .main__container__title.control {
+        padding-left: 76px;
+    }
+
+    .main__camera {
+        padding-left: 113px;
+    }
+
+    .main__control__video {
+        height: 207px;
+        background-image: url(../img/png-768px/control-video.png);
+        width: 340px;
+    }
+
+    .btn-video {
+        width: 37px;
+        height: 37px;
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+
+    .btn-player-1300 {
+        display: none;
+    }
+
+    .btn-player-768 {
+        display: block;
+    }
+
+    .main__control__line {
+        margin-left: 142px;
+        margin-top: 28px;
+        margin-bottom: 21px;
+    }
+
+    .main__control__text {
+        padding-right: 0px;
+        font-size: 11px;
+        line-height: 169%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        color: white;
+    }
+
+    .main__control__text .indent {
+        display: block;
+    }
+
+    .main__control_contacts {
+        width: 340px;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        height: 152px;
+        margin-left: 0px;
+        margin-top: 61px;
+        align-content: space-between;
+    }
+
+    .main__contacts {
+        width: 340px;
+    }
+
+    .main__contacts span {
+        color: rgba(255, 255, 255, .5);
+    }
+
+    .main__contacts input::placeholder {
+        color: white;
+    }
+
+    .main__contacts input {
+        width: 340px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        background-color: #181818;
+        color: white;
+    }
+
+    .main__control__btn {
+        display: none;
+    }
+
+    .main__checkbox {
+        margin-left: 0px;
+        margin-top: 26px;
+        margin-bottom: 88px;
+    }
+
+    .main__checkbox__text {
+        color: #FFFFFF;
+    }
+
+    .main__control__end {
+        width: 340px;
+        display: block;
+        height: 51px;
+        border-radius: 0px;
+        padding-top: 5px;
+        margin-bottom: -26px;
+    }
+
+    /* section main__repair */
+    .main__container__repair {
+        margin-top: 83px;
+        margin-bottom: 270px;
+    }
+
+    .main__repair__tatle {
+        font-size: 22px;
+    }
+
+    .main__tools {
+        margin-top: 17px;
+        margin-bottom: 40px;
+    }
+
+    .main__tools.repair {
+        padding-left: 112px;
+    }
+
+    .main__repair__proposal {
+        margin-bottom: 55px;
+        flex-wrap: wrap;
+        row-gap: 59px;
+    }
+
+    .main__proposal {
+        width: 340px;
+        height: 365px;
+    }
+
+    .main__proposal.redecorating {
+        background-image: url(../img/png-768px/redecorating.png);
+    }
+
+    .main__proposal__text {
+        width: 270px;
+        margin-left: 0px;
+        margin-top: -132px;
+        background-color: white;
+    }
+
+    .main__proposal__list h1 {
+        font-size: 15px;
+    }
+
+    .main__proposal__item {
+        margin-left: 15px;
+        line-height: 169%;
+    }
+
+    .main__proposal__btn {
+        width: 190px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .main__proposal.overhaul {
+        background-image: url(../img/png-768px/Overhaul.png);
+    }
+
+    .main__proposal.designer {
+        background-image: url(../img/png-768px/Designer\ Repair.png);
+    }
+
+    /* section main__information */
+    .main__container__information,
+    .main__interior,
+    .main__clients {
+        display: none;
+    }
+
+    /* section main__end */
+    .main__interior__title.end {
+        display: block;
+        text-align: center;
+        width: 229px;
+        position: absolute;
+        font-size: 22px;
+        line-height: 138%;
+        margin-top: -210px;
+    }
+
+    .main__container__projects__img.end {
+        background-image: url(../img/png-768px/American-classic.png);
+        margin-top: -120px;
+    }
+
+    .main__end {
+        background-image: none;
+        background-color: #181818;
+        height: 1195px;
+    }
+
+    .main__contacts__request.questions input {
+        width: 340px;
+    }
+
+    .main__request.questions {
+        width: 340px;
+        height: 444px;
+        margin-top: 0px;
+        background-color: #181818;
+    }
+
+    .main__request_text.questions {
+        padding-top: 52px;
+    }
+
+    .main__contacts__information.questions {
+        margin-top: 52px;
+        width: 340px;
+        height: 138px;
+        margin-left: 0px;
+        row-gap: 63px;
+    }
+
+    .main__contacts__request.questions,
+    .main__contacts__request.questions:first-child {
+        width: 340px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    }
+
+    .main__checkbox__request.questions {
+        margin-left: 0px;
+        margin-top: 155px;
+    }
+
+    .main__request__btn.questions {
+        width: 340px;
+        margin-left: 0px;
+        margin-top: 67px;
+        border-radius: 0px;
+    }
+
+    .main__information_contact__title {
+        margin-top: 460px;
+        width: 340px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .main__information_contact__title br {
+        display: block;
+    }
+
+    .main__information__contact__img {
+
+        margin-left: 121px;
+        margin-bottom: 49px;
+        width: 99px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main__information__contact__map {
+        margin-top: -475px;
+        width: 340px;
+        height: 255px;
+        background-image: url(../img/png-768px/map.png);
+    }
+
+    .information__img-1300 {
+        display: none;
+    }
+
+    .information__img-375 {
+        display: block;
+    }
+}

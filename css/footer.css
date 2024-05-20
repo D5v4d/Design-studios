@@ -1,0 +1,12 @@
+footer{
+    font-size: 11px;
+    background-color: #131313;
+}
+
+
+/* 375px */
+@media screen and (max-width:1300px){
+    footer{
+        display: none;
+    }
+}
